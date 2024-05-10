@@ -3,7 +3,7 @@
     margin:8px;
     background-color: $dark-purple;
     border: none;
-    padding:10px;
+    padding:6px 10px 6px 10px;
     width:125px ;
     color: $bg-secondary;
     border-radius: 5px;
@@ -17,13 +17,16 @@
         background-color:$dark-purple; 
         border: 1px solid $argentain-blue;
     }
+    i{
+        font-size:10px;
+    }
 .btn-group{
     margin:5px;
     .btn-group-one{
         background-color: $bg-secondary;
         color: $black-bean;
         border:1.5px solid $black-bean;
-        padding:10px;
+        padding:6px 10px 6px 10px;
         width:125px ;
         border-radius: 5px;
     }
@@ -31,7 +34,7 @@
         background-color: $dark-purple;
         color: $bg-secondary;
         border:1.5px solid $black-bean;
-        padding:10px;
+        padding:6px 10px 6px 10px;
         width:125px ;
         border-radius: 5px;
     }
