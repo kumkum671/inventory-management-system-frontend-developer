@@ -98,11 +98,14 @@
   letter-spacing: 1.25%;
 }
 
+.btn {
+  padding: 0.3rem 1rem !important;
+}
+
 .btn-primary {
   color: #FFFFFF !important;
   background-color: #0F084B !important;
   border-color: #0F084B !important;
-  padding: 0.3rem 1rem !important;
 }
 .btn-primary:hover {
   background-color: #040661 !important;
@@ -112,7 +115,6 @@
 .btn-outline-primary {
   color: #0F084B !important;
   border-color: #0F084B !important;
-  padding: 0.3rem 1rem !important;
 }
 .btn-outline-primary:hover {
   color: #FFFFFF !important;
