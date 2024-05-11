@@ -85,4 +85,8 @@
   text-decoration: underline;
   line-height: 22px;
   letter-spacing: 1.25%;
+}
+
+table td {
+  border-bottom: 1px solid black;
 }/*# sourceMappingURL=style.css.map */
