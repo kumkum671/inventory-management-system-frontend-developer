@@ -1,1 +1,25 @@
 @import '../base';
+
+.btn-primary{
+    color: $base-light !important;
+    background-color: $dark-purple !important;
+    border-color: $dark-purple !important;
+    padding: 0.3rem 1rem !important;
+
+    &:hover{
+        background-color: #040661 !important;
+        border-color: #040661 !important;
+    }
+}
+
+.btn-outline-primary{
+    color: $dark-purple !important;
+    border-color: $dark-purple !important;
+    padding: 0.3rem 1rem !important;
+
+    &:hover{
+        color: $base-light !important;
+        background-color: $dark-purple !important;
+        border-color: #040661 !important;
+    }
+}
