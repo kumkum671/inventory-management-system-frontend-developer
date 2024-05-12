@@ -7,8 +7,13 @@
         th{
             color:$content-secondary;
         }
-        td{
-            color:$content-primary;
+        tbody{
+            td{
+                color:$content-primary;
+                .mng{
+                    color: $argentain-blue !important;
+                }
+            }
         }
     }
 }

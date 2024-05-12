@@ -103,9 +103,64 @@
   top: 68px;
   left: 18px;
   bottom: 20px;
+  margin-bottom: 8rem;
 }
 .back a {
   text-decoration: none;
   color: #0F084B;
-  margin-bottom: 27px;
+}
+
+.form-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.form-body .wrap-one, .form-body .wrap-two {
+  display: grid;
+  justify-content: center;
+  margin-top: 81px;
+  width: 600px;
+  height: 420px;
+}
+.form-body .wrap-one h3, .form-body .wrap-two h3 {
+  text-align: center;
+  font-weight: 700;
+}
+.form-body .wrap-one label, .form-body .wrap-two label {
+  color: #4F4F4F;
+  margin: 0%;
+}
+.form-body .wrap-one .fa-star-of-life, .form-body .wrap-two .fa-star-of-life {
+  font-size: 7px;
+  color: #D8331C;
+  margin: 3px;
+}
+.form-body .wrap-one .message, .form-body .wrap-two .message {
+  color: #D8331C;
+  border: 1.8px solid #D8331C;
+  background-color: #fee3dc;
+  padding: 3px;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+}
+.form-body .wrap-one .form, .form-body .wrap-two .form {
+  padding: 3px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.form-body .wrap-one a, .form-body .wrap-two a {
+  margin-bottom: 2px;
+}
+.form-body .wrap-one .btn, .form-body .wrap-two .btn {
+  width: 100%;
+}
+.form-body .flex-box-1, .form-body .flex-box-2 {
+  display: flex;
+  flex-direction: row;
+  flex: 1fr 1fr;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex: 1;
 }/*# sourceMappingURL=style.css.map */

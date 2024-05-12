@@ -98,16 +98,14 @@
   letter-spacing: 1.25%;
 }
 
-.container {
-  margin-left: 2px;
-  margin-top: 20px;
+.back {
+  position: absolute;
+  top: 68px;
+  left: 18px;
+  bottom: 20px;
+  margin-bottom: 8rem;
 }
-.container table th {
-  color: #4F4F4F;
-}
-.container table tbody td {
-  color: #333333;
-}
-.container table tbody td .mng {
-  color: #65AFFF !important;
+.back a {
+  text-decoration: none;
+  color: #0F084B;
 }/*# sourceMappingURL=style.css.map */
