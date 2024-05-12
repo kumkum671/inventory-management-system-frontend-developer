@@ -1,5 +1,4 @@
 @import '../base';
-<<<<<<< HEAD
 
 .btn{
     padding: 0.3rem 1rem !important;
@@ -26,50 +25,3 @@
         border-color: #040661 !important;
     }
 }
-=======
-.primary{
-    margin:8px;
-    background-color: $dark-purple;
-    border: none;
-    padding:6px 10px 6px 10px;
-    width:125px ;
-    color: $bg-secondary;
-    border-radius: 5px;
-}
-
-.primary:hover{
-    background-color: #03045E;
-    transition-delay: 300ms;
-    transform: ease-in-out;
-}
-
-.primary:active{
-    background-color:$dark-purple; 
-    border: 1px solid $argentain-blue;
-}
-
-i{
-    font-size:10px;
-}
-
-.btn-group{
-    margin:8px;
-    .btn-group-one{
-        background-color: $bg-secondary;
-        color: $black-bean;
-        border:1.5px solid $black-bean;
-        padding:6px 10px 6px 10px;
-        width:125px ;
-        border-radius: 5px;
-    }
-    .btn-group-two{
-        background-color: $dark-purple;
-        color: $bg-secondary;
-        border:1.5px solid $black-bean;
-        padding:6px 10px 6px 10px;
-        width:125px ;
-        border-radius: 5px;
-    }
-}
-
->>>>>>> features

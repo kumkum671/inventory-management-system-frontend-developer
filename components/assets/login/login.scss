@@ -1,0 +1,50 @@
+@import '../base';
+.back{
+    position:absolute;
+    top: 68px;
+    left: 42px;
+    color:$dark-purple ;
+}
+.form-body{
+    display: flex;
+    justify-content: center;
+    .wrap{
+        display: grid;
+        margin-top:81px;
+        width: 458px;
+        height: 420px;
+        h3{
+            text-align: center;
+            font-weight: 700;
+        }
+        label{
+            color:$content-secondary;
+            margin:0%;
+        }
+        .fa-star-of-life{
+            font-size: 7px;
+            color:$sentiment-negative;
+            margin: 3px;
+        }
+        .message{
+            color:$sentiment-negative ;
+            border:1.8px solid $sentiment-negative;
+            background-color:#fee3dc;
+            padding: 3px;
+            border-radius:5px ;
+            text-align: center;
+            width: 100%;
+        }
+        .form{
+            padding: 3px;
+            border-radius:5px ;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        a{
+            margin-bottom: 2px; 
+        }
+    }
+    
+   
+}
