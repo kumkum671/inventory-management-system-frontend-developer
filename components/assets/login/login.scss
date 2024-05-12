@@ -2,8 +2,11 @@
 .back{
     position:absolute;
     top: 68px;
-    left: 42px;
-    color:$dark-purple ;
+    left:18px;
+    a{
+        text-decoration: none;
+        color:$dark-purple ;
+    }
 }
 .form-body{
     display: flex;

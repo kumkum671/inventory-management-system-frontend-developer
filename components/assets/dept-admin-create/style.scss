@@ -1,0 +1,12 @@
+@import '../base';
+.back{
+    position:absolute;
+    top: 68px;
+    left:18px;
+    bottom: 20px;
+    a{
+        text-decoration: none;
+        color:$dark-purple ;
+        margin-bottom: 27px;
+    }
+}

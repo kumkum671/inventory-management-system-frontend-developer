@@ -102,50 +102,10 @@
   position: absolute;
   top: 68px;
   left: 18px;
+  bottom: 20px;
 }
 .back a {
   text-decoration: none;
   color: #0F084B;
-}
-
-.form-body {
-  display: flex;
-  justify-content: center;
-}
-.form-body .wrap {
-  display: grid;
-  margin-top: 81px;
-  width: 458px;
-  height: 420px;
-}
-.form-body .wrap h3 {
-  text-align: center;
-  font-weight: 700;
-}
-.form-body .wrap label {
-  color: #4F4F4F;
-  margin: 0%;
-}
-.form-body .wrap .fa-star-of-life {
-  font-size: 7px;
-  color: #D8331C;
-  margin: 3px;
-}
-.form-body .wrap .message {
-  color: #D8331C;
-  border: 1.8px solid #D8331C;
-  background-color: #fee3dc;
-  padding: 3px;
-  border-radius: 5px;
-  text-align: center;
-  width: 100%;
-}
-.form-body .wrap .form {
-  padding: 3px;
-  border-radius: 5px;
-  width: 100%;
-  margin-bottom: 30px;
-}
-.form-body .wrap a {
-  margin-bottom: 2px;
-}/*# sourceMappingURL=login.css.map */
+  margin-bottom: 27px;
+}/*# sourceMappingURL=style.css.map */
