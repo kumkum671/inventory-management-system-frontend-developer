@@ -14,117 +14,69 @@
     <link rel="stylesheet" href="./assets/register/style.css"/>
 </head>
 <body>
-    <div class="container">
+    <section>
         <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./assets/navbar/logo.svg" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <a class="navbar-brand" href="#"><img src="./assets/login/logo.svg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-start dropdown-menu-lg-end">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                        <hr class="dropdown-divider">
+              </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-start dropdown-menu-lg-end">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                              <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-sm btn-primary">
+                                <span class="text-body-default-bold">Button Primary<i class="fa-solid fa-plus ms-2"></i></span>
+                            </button>
+                            <button class="btn btn-sm btn-outline-primary">
+                                <span class="text-body-default-bold">Button Outline Primary<i class="fa-solid fa-plus ms-2"></i></span>
+                            </button>
+                        </li>
                     </ul>
-                    </li>
-                    <li class="nav-item">
-                    <button class="btn btn-sm btn-primary">
-                        <span class="text-body-default-bold">Button Primary<i class="fa-solid fa-plus ms-2"></i></span>
-                    </button>
-                    <button class="btn btn-sm btn-outline-primary">
-                        <span class="text-body-default-bold">Button Outline Primary<i class="fa-solid fa-plus ms-2"></i></span>
-                    </button>
-                    </li>
-                </ul>
+                    </div>
                 </div>
-            </div>
             </div>
         </nav>
-        <div class="back">
-            <a href="#"><i class="fa-solid fa-angle-left"></i>Go back</a>
+    </section>
+        
+    <section>
+        <div class="container">
+          <div class="back"> <a class="mb-4 text-body-default-bold"  href="#"><i class="fa-solid fa-angle-left pe-1"></i>Go back</a></div>
         </div>
-        <div class="form-body">
-            <div class="wrap-one">
-                <h3>Organisation Details</h3>
-                <div class="flex-box-1">
-                    <div class="one">
-                        <label>Organisation Name<i class="fa-solid fa-star-of-life"></i></label>
-                        <p class="message body-default-bold">Any Field errors will be displayed here</p>
-                        <input class="form" type="email">
-                    </div>
-                    <div class="two">
-                        <label>Contact no<i class="fa-solid fa-star-of-life"></i></label>
-                        <p class="message body-default-bold">Any Field errors will be displayed here</p>
-                        <input class="form" type="email">
-                    </div>
-                    <div class="three">
-                        <label>Organisation address<i class="fa-solid fa-star-of-life"></i></label>
-                        <p class="message">Any Field errors will be displayed here</p>
-                        <input class="form" type="text">
-                    </div>
-                </div>
-                
-                <button class="btn btn-sm btn-primary">
-                    <span class="text-body-default-bold">Next<i class="fa-solid fa-plus ms-2"></i></span>
-                </button>
+    </section>
+
+    <section class="login-card">
+        <div class="container">
+            <div class="card">
+                <h1 class="text-title-section col-12">Organisation Details</h1>
+                <div></div>div>
             </div>
-            <div class="wrap-two">
-                <h3>Admin Details</h3>
-                <div class="flex-box-2">
-                    <div class="one">
-                        <label>First Name<i class="fa-solid fa-star-of-life"></i></label>
-                        <p class="message body-default-bold">Any Field errors will be displayed here</p>
-                        <input class="form" type="email">
-                    </div>
-                    <div class="two">
-                        <label>Last Name<i class="fa-solid fa-star-of-life"></i></label>
-                        <p class="message body-default-bold">Any Field errors will be displayed here</p>
-                        <input class="form" type="email">
-                    </div>
-                    <div class="three">
-                        <label>Email<i class="fa-solid fa-star-of-life"></i></label>
-                        <p class="message body-default-bold">Any Field errors will be displayed here</p>
-                        <input class="form" type="email">
-                    </div>
-                    <div class="four">
-                        <label>Password<i class="fa-solid fa-star-of-life"></i></label>
-                        <p class="message">Any Field errors will be displayed here</p>
-                        <input class="form" type="password">
-                    </div>
-                    <div class="five">
-                        <label>Confirm Password<i class="fa-solid fa-star-of-life"></i></label>
-                        <p class="message">Any Field errors will be displayed here</p>
-                        <input class="form" type="password">
-                    </div>
-                </div>
-                
-                <button class="btn btn-sm btn-primary">
-                    <span class="text-body-default-bold">Register<i class="fa-solid fa-plus ms-2"></i></span>
-                </button>
-            </div>
-            
-        </div>  
-    </div>
-    
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
 </body>
 </html>
