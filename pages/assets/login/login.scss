@@ -1,2 +1,33 @@
-@import '../base';
+@import '../../../stylesheets/base';
 @import '../../../components/assets/buttons/style';
+
+.back{
+    margin-top: 4rem;
+    a{
+        text-decoration: none;
+        color:$dark-purple;
+    }
+}
+.login-card{
+    .container{
+        max-width: 600px;
+        margin-top: 2rem;
+    }
+    .card{
+        padding:1rem;
+        .text-title-section{
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .alert{
+            padding: 0.5rem !important;
+        }
+    }
+    .forgot-password{
+        margin-bottom: 1rem;
+    }
+    .btn{
+        width:100%;
+    }
+}
