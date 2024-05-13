@@ -1,0 +1,16 @@
+@import '../../../stylesheets/base';
+@import '../../../components/assets/buttons/style';
+
+.back{
+    margin-top: 4rem;
+    a{
+        text-decoration: none;
+        color:$dark-purple;
+    }
+}
+.login-card{
+    .container{
+        max-width: 600px;
+        margin-top: 2rem;
+    }
+}
