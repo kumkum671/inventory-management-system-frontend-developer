@@ -14,71 +14,31 @@
     <link rel="stylesheet" href="./assets/login/login.css"/>
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./assets/navbar/logo.svg" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-start dropdown-menu-lg-end">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                        <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                    </li>
-                    <li class="nav-item">
-                    <button class="btn btn-sm btn-primary">
-                        <span class="text-body-default-bold">Button Primary<i class="fa-solid fa-plus ms-2"></i></span>
-                    </button>
-                    <button class="btn btn-sm btn-outline-primary">
-                        <span class="text-body-default-bold">Button Outline Primary<i class="fa-solid fa-plus ms-2"></i></span>
-                    </button>
-                    </li>
-                </ul>
-                </div>
-            </div>
-            </div>
-        </nav>
-        <div class="back">
-            <a href="#"><i class="fa-solid fa-angle-left"></i>Go back</a>
+
+    <section class="login-card">
+        <div class="container">
+            <div class="card">
+                <h1>Sign in</h1>
+                <form>
+                 <div class="mb-3">
+                     <label for="exampleInputEmail1" class="form-label">Email address</label>
+                     <div class="alert alert-danger" role="alert">
+                         A simple danger alert—check it out!
+                       </div>
+                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                 </div>
+                 <div class="mb-3">
+                     <label for="exampleInputEmail1" class="form-label">Email address</label>
+                     <div class="alert alert-danger" role="alert">
+                         A simple danger alert—check it out!
+                       </div>
+                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                 </div>
+                 <button class="btn btn-primary">Sign in</button>
+                </form>
+             </div>
         </div>
-        <div class="form-body">
-            <div class="wrap">
-                <h3>Sign in</h3>
-                <label>Email<i class="fa-solid fa-star-of-life"></i></label>
-                <p class="message body-default-bold">Any Field errors will be displayed here</p>
-                <input class="form" type="email">
-                <label>Password<i class="fa-solid fa-star-of-life"></i></label>
-                <p class="message">Any Field errors will be displayed here</p>
-                <input class="form" type="password">
-                <a href="#">Forgot password?</a>
-                <button class="btn btn-sm btn-primary">
-                    <span class="text-body-default-bold">Sign in<i class="fa-solid fa-plus ms-2"></i></span>
-                </button>
-            </div>
-        </div>
-    </div>
+    </section>
     
 </body>
 </html>
