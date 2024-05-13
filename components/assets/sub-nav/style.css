@@ -102,16 +102,40 @@
   display: flex;
   flex-wrap: wrap;
 }
-.container .wrapper h3 {
+.container .wrapper .side-bar a {
+  text-decoration: none;
+}
+.container .wrapper .side-bar a .text-title-subsection {
+  margin-top: 8px;
   color: #0F084B;
 }
-.container .wrapper p {
-  padding: 2px 10px 1px 10px;
-  font-weight: 600;
-  font-size: 15px;
+.container .wrapper .table-responsive {
+  display: flex;
 }
-.container .wrapper p .fa-solid {
-  padding: 2px 4px 1px 4px;
+.container .wrapper .table-responsive table {
+  margin-left: 1rem;
+}
+.container .wrapper .table-responsive table td {
+  padding: 0 1rem;
+  text-align: center;
+}
+.container .wrapper .table-responsive table td a {
+  text-decoration: none;
+  color: #0F084B;
+}
+.container .wrapper .table-responsive table td a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+.container .wrapper .table-responsive table td .active::after {
+  content: "";
+  background-color: #65AFFF;
+  display: block;
+  height: 2px;
+  width: 100%;
 }
 .container .wrapper .item {
   margin-bottom: 1rem;
