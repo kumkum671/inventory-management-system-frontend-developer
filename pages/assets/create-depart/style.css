@@ -575,7 +575,7 @@
 }
 
 .back {
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 .back a {
   text-decoration: none;
@@ -584,17 +584,8 @@
 
 .login-card .card {
   padding: 1rem;
-  max-width: 800px;
-  margin: 2rem auto;
-}
-.login-card .card form {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  -moz-column-gap: 1rem;
-       column-gap: 1rem;
-  max-width: 100%;
-  flex: 1;
+  max-width: 500px;
+  margin: 12rem auto;
 }
 .login-card .card .text-title-section {
   text-align: center;
