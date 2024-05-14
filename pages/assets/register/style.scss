@@ -22,11 +22,14 @@
             max-width:100%;
             flex: 1;
         }
-        .text-title-section{
-            text-align: center;
-            margin-bottom: 2rem;
+        .heading{
+           text-align: center;
+           width: 100%;
+            .text-title-screen{
+                text-align: center;
+                margin-bottom: 2rem;
+            }
         }
-
         .alert{
             padding: 0.5rem !important;
         }
