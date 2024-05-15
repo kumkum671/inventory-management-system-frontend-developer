@@ -1,2 +1,9 @@
-@import '../../stylesheets/base';
-
+@import '../../../stylesheets/base';
+#sub-nav{
+    margin-top: 5rem;
+}
+.text-link-default{
+    a{
+        text-decoration: none;
+    }
+}
