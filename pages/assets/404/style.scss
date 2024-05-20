@@ -1,0 +1,30 @@
+@import '../../../stylesheets/colors';
+.container{
+    display:grid;
+    justify-content: center;
+    .text-title-screen{
+        color: $dark-purple;
+        text-align: center;
+        font-size: 100px;
+        margin-bottom: 0px;
+    }
+    .text-title-section{
+        font-size:30px; 
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 9px;
+    }
+    p{
+        font-size:20px;  
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    span{
+        a{
+            color:$argentain-blue;
+            text-decoration:dotted !important;
+        }
+        }
+    }
+    
+}
