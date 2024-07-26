@@ -1,4 +1,10 @@
-@import '../../../stylesheets/colors';
+@import  
+'../../../stylesheets/sub-nav', 
+'../../../stylesheets/navbar', 
+'../../../stylesheets/typography',
+'../../../stylesheets/buttons',
+'../../../stylesheets/colors';
+
 
 .back{
     margin-top: 6rem;
@@ -7,7 +13,8 @@
         color:$dark-purple;
     }
 }
-.login-card{
+
+#form{
     .card{
         padding:1rem;
         max-width: 500px;
